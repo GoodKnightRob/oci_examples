@@ -15,9 +15,9 @@ Steps
 - Log into OCIR
   - `docker login <region-code>.ocir.io <tenancy_namespace>/<username> <Auth-token>`
 - Find the image in your local machine and tag it in the format
-  - `docker images'
-  - `docker tag <docker image id> <region-code>.ocir.io/<tenancy-namespace>/<repos-name>/<image-name>:<tag>
+  - `docker images`
+  - `docker tag <docker image id> <region-code>.ocir.io/<tenancy-namespace>/<repos-name>/<image-name>:<tag>`
 - Push your tagged image to OCIR
   - `docker push iad.ocir.io/username/repo-name/image-name`
 - Note: images can also be pulled with
-  - `docker pull <region-code>.ocir.io/<tenancy-namespace>/repo-name/image-name:tag
+  - `docker pull <region-code>.ocir.io/<tenancy-namespace>/repo-name/image-name:tag`
