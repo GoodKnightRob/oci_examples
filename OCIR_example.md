@@ -57,6 +57,7 @@ spec:
 Now lets deploy
 `kubectl apply -f sample.yaml`
  
-We can get additional details on the pod with:
+Get pod info
 `kubectly get pods -o wide`
-`kubectl descreibe pods <name of pod>
+We can get additional details on the pod with:
+`kubectl descreibe pods <name of pod>`
