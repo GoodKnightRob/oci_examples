@@ -1,4 +1,6 @@
 # Oracle Registry Service to store docker images / application artifacts
+# https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html
+
 To use the registry service the user is either a part of the admin group or a part of a group which a policy grants the
 appropiate permission
 
@@ -58,6 +60,6 @@ Now lets deploy
 `kubectl apply -f sample.yaml`
  
 Get pod info
-`kubectly get pods -o wide`
+`kubectl get pods -o wide`
 We can get additional details on the pod with:
 `kubectl descreibe pods <name of pod>`
